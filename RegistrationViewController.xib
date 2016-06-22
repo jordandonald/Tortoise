@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RegistrationViewController" customModule="Tortoise" customModuleProvider="target">
+            <connections>
+                <outlet property="emailField" destination="JY1-tJ-Rjt" id="bbB-W1-VDG"/>
+                <outlet property="loginButton" destination="1N4-YY-tVk" id="HIH-yu-LDC"/>
+                <outlet property="passwordField" destination="Z2D-jB-mxo" id="30V-jF-XeH"/>
+                <outlet property="registerButton" destination="Oce-G4-QpU" id="1oh-gz-wtx"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tortoise_background" translatesAutoresizingMaskIntoConstraints="NO" id="Hus-ac-NBj">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tortoise" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7pH-tJ-Rf4">
+                    <rect key="frame" x="68" y="145" width="465" height="60"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="60" id="RmC-N1-V9p"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Georgia-Italic" family="Georgia" pointSize="50"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Oce-G4-QpU">
+                    <rect key="frame" x="68" y="333" width="465" height="33"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <state key="normal" title="Register">
+                        <color key="titleColor" red="0.40602518770000001" green="0.63357371790000006" blue="0.61042936540000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="registrationButtonTapped:" destination="-1" eventType="touchUpInside" id="Hlz-9T-7O8"/>
+                    </connections>
+                </button>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="JY1-tJ-Rjt">
+                    <rect key="frame" x="67" y="235" width="465" height="30"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Already have an account?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0lr-KT-vXp">
+                    <rect key="frame" x="68" y="521" width="465" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1N4-YY-tVk">
+                    <rect key="frame" x="68" y="550" width="465" height="30"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="jws-42-5Bz"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <state key="normal" title="Login">
+                        <color key="titleColor" red="0.40602518770000001" green="0.63357371790000006" blue="0.61042936540000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="loginButtonTapped:" destination="-1" eventType="touchUpInside" id="eUj-V3-gxb"/>
+                    </connections>
+                </button>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Z2D-jB-mxo">
+                    <rect key="frame" x="68" y="285" width="465" height="30"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+            </subviews>
+            <constraints>
+                <constraint firstItem="Z2D-jB-mxo" firstAttribute="leading" secondItem="Oce-G4-QpU" secondAttribute="leading" id="A0u-DL-K7i"/>
+                <constraint firstItem="Hus-ac-NBj" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="Cj2-eF-0c9"/>
+                <constraint firstItem="Z2D-jB-mxo" firstAttribute="trailing" secondItem="Oce-G4-QpU" secondAttribute="trailing" id="G70-fL-hAD"/>
+                <constraint firstItem="7pH-tJ-Rf4" firstAttribute="leading" secondItem="Z2D-jB-mxo" secondAttribute="leading" id="N0T-lc-phf"/>
+                <constraint firstItem="Z2D-jB-mxo" firstAttribute="top" secondItem="JY1-tJ-Rjt" secondAttribute="bottom" constant="20" id="QhY-4G-vqf"/>
+                <constraint firstItem="7pH-tJ-Rf4" firstAttribute="trailing" secondItem="Z2D-jB-mxo" secondAttribute="trailing" id="R7T-uA-L3y"/>
+                <constraint firstItem="Hus-ac-NBj" firstAttribute="centerY" secondItem="Z2D-jB-mxo" secondAttribute="centerY" id="VZk-Kv-5gN"/>
+                <constraint firstItem="JY1-tJ-Rjt" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="67" id="Ylg-Nx-wVS"/>
+                <constraint firstItem="1N4-YY-tVk" firstAttribute="top" secondItem="0lr-KT-vXp" secondAttribute="bottom" constant="8" symbolic="YES" id="bNO-jK-Cud"/>
+                <constraint firstAttribute="bottom" secondItem="1N4-YY-tVk" secondAttribute="bottom" constant="20" id="hmX-Ds-AN0"/>
+                <constraint firstItem="Oce-G4-QpU" firstAttribute="top" secondItem="Z2D-jB-mxo" secondAttribute="bottom" constant="18" id="i2Z-af-hWw"/>
+                <constraint firstItem="Oce-G4-QpU" firstAttribute="leading" secondItem="0lr-KT-vXp" secondAttribute="leading" id="ic9-1G-DRp"/>
+                <constraint firstItem="Oce-G4-QpU" firstAttribute="trailing" secondItem="0lr-KT-vXp" secondAttribute="trailing" id="idZ-eM-F6J"/>
+                <constraint firstItem="0lr-KT-vXp" firstAttribute="trailing" secondItem="1N4-YY-tVk" secondAttribute="trailing" id="j7D-PM-J5g"/>
+                <constraint firstItem="7pH-tJ-Rf4" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="68" id="mAQ-yt-piL"/>
+                <constraint firstItem="Hus-ac-NBj" firstAttribute="centerX" secondItem="JY1-tJ-Rjt" secondAttribute="centerX" id="n2z-iN-7Ry"/>
+                <constraint firstItem="7pH-tJ-Rf4" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="nFC-tf-K5F"/>
+                <constraint firstItem="Hus-ac-NBj" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="rkt-rU-sdT"/>
+                <constraint firstItem="Z2D-jB-mxo" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="rn9-is-cUE"/>
+                <constraint firstItem="Hus-ac-NBj" firstAttribute="centerX" secondItem="7pH-tJ-Rf4" secondAttribute="centerX" id="uCT-8U-EGg"/>
+                <constraint firstItem="JY1-tJ-Rjt" firstAttribute="top" secondItem="7pH-tJ-Rf4" secondAttribute="bottom" constant="30" id="xXb-db-LlL"/>
+                <constraint firstItem="0lr-KT-vXp" firstAttribute="leading" secondItem="1N4-YY-tVk" secondAttribute="leading" id="zoc-K4-vcH"/>
+            </constraints>
+            <point key="canvasLocation" x="154" y="322"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="tortoise_background" width="375" height="667"/>
+    </resources>
+</document>

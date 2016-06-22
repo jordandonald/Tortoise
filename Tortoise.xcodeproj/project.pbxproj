@@ -1,0 +1,753 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		176901FF1D19EEB80089D8DE /* Division.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176901FE1D19EEB80089D8DE /* Division.swift */; };
+		176902011D19EED00089D8DE /* DivisionsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176902001D19EED00089D8DE /* DivisionsController.swift */; };
+		176902041D19F6B40089D8DE /* ReadingInfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176902021D19F6B30089D8DE /* ReadingInfoTableViewCell.swift */; };
+		176902051D19F6B40089D8DE /* ReadingInfoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 176902031D19F6B30089D8DE /* ReadingInfoTableViewCell.xib */; };
+		17F01F421D1996F2001286A9 /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17F01F411D1996F2001286A9 /* UserManager.swift */; };
+		17F56CEE1D1745190018B80C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17F56CED1D1745190018B80C /* AppDelegate.swift */; };
+		17F56CF01D1745190018B80C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17F56CEF1D1745190018B80C /* ViewController.swift */; };
+		17F56CF51D1745190018B80C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17F56CF41D1745190018B80C /* Assets.xcassets */; };
+		17F56CF81D1745190018B80C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17F56CF61D1745190018B80C /* LaunchScreen.storyboard */; };
+		17F56D031D1745190018B80C /* TortoiseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17F56D021D1745190018B80C /* TortoiseTests.swift */; };
+		17F56D0E1D1745190018B80C /* TortoiseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17F56D0D1D1745190018B80C /* TortoiseUITests.swift */; };
+		17F56D1D1D17454E0018B80C /* LandingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17F56D1B1D17454E0018B80C /* LandingViewController.swift */; };
+		17F56D1E1D17454E0018B80C /* LandingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17F56D1C1D17454E0018B80C /* LandingViewController.xib */; };
+		17F56D211D1751870018B80C /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17F56D1F1D1751870018B80C /* RegistrationViewController.swift */; };
+		17F56D221D1751870018B80C /* RegistrationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17F56D201D1751870018B80C /* RegistrationViewController.xib */; };
+		17F56D2B1D1767160018B80C /* MyReadingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17F56D291D1767160018B80C /* MyReadingsViewController.swift */; };
+		17F56D2C1D1767160018B80C /* MyReadingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17F56D2A1D1767160018B80C /* MyReadingsViewController.xib */; };
+		17F56D2F1D177C200018B80C /* AddReadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17F56D2D1D177C200018B80C /* AddReadingViewController.swift */; };
+		17F56D301D177C200018B80C /* AddReadingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17F56D2E1D177C200018B80C /* AddReadingViewController.xib */; };
+		17F56D331D1784510018B80C /* ReadingInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17F56D311D1784510018B80C /* ReadingInfoViewController.swift */; };
+		17F56D341D1784510018B80C /* ReadingInfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17F56D321D1784510018B80C /* ReadingInfoViewController.xib */; };
+		17F56D711D1880270018B80C /* MyReadingsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17F56D6F1D1880270018B80C /* MyReadingsTableViewCell.swift */; };
+		17F56D721D1880270018B80C /* MyReadingsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17F56D701D1880270018B80C /* MyReadingsTableViewCell.xib */; };
+		17F56D741D18836A0018B80C /* Reading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17F56D731D18836A0018B80C /* Reading.swift */; };
+		17F56D761D188A340018B80C /* PersistenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17F56D751D188A340018B80C /* PersistenceManager.swift */; };
+		17F56D7A1D188AFE0018B80C /* ReadingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17F56D791D188AFE0018B80C /* ReadingsController.swift */; };
+		9185873EBB0BA9051A37F1C6 /* Pods_Tortoise.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E805AF1A43DE76C94121F62 /* Pods_Tortoise.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		17F56CFF1D1745190018B80C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 17F56CE21D1745180018B80C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17F56CE91D1745180018B80C;
+			remoteInfo = Tortoise;
+		};
+		17F56D0A1D1745190018B80C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 17F56CE21D1745180018B80C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17F56CE91D1745180018B80C;
+			remoteInfo = Tortoise;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1113B2221C08DD08396BD1DA /* Pods_TortoiseUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TortoiseUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		176901FE1D19EEB80089D8DE /* Division.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Division.swift; sourceTree = "<group>"; };
+		176902001D19EED00089D8DE /* DivisionsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DivisionsController.swift; sourceTree = "<group>"; };
+		176902021D19F6B30089D8DE /* ReadingInfoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReadingInfoTableViewCell.swift; sourceTree = "<group>"; };
+		176902031D19F6B30089D8DE /* ReadingInfoTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReadingInfoTableViewCell.xib; sourceTree = "<group>"; };
+		17F01F411D1996F2001286A9 /* UserManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
+		17F56CEA1D1745180018B80C /* Tortoise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tortoise.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		17F56CED1D1745190018B80C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = Tortoise/AppDelegate.swift; sourceTree = "<group>"; };
+		17F56CEF1D1745190018B80C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		17F56CF41D1745190018B80C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		17F56CF71D1745190018B80C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		17F56CF91D1745190018B80C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17F56CFE1D1745190018B80C /* TortoiseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TortoiseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		17F56D021D1745190018B80C /* TortoiseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TortoiseTests.swift; sourceTree = "<group>"; };
+		17F56D041D1745190018B80C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17F56D091D1745190018B80C /* TortoiseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TortoiseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		17F56D0D1D1745190018B80C /* TortoiseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TortoiseUITests.swift; sourceTree = "<group>"; };
+		17F56D0F1D1745190018B80C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17F56D1B1D17454E0018B80C /* LandingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LandingViewController.swift; sourceTree = "<group>"; };
+		17F56D1C1D17454E0018B80C /* LandingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LandingViewController.xib; sourceTree = "<group>"; };
+		17F56D1F1D1751870018B80C /* RegistrationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
+		17F56D201D1751870018B80C /* RegistrationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RegistrationViewController.xib; sourceTree = "<group>"; };
+		17F56D291D1767160018B80C /* MyReadingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyReadingsViewController.swift; sourceTree = "<group>"; };
+		17F56D2A1D1767160018B80C /* MyReadingsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyReadingsViewController.xib; sourceTree = "<group>"; };
+		17F56D2D1D177C200018B80C /* AddReadingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddReadingViewController.swift; sourceTree = "<group>"; };
+		17F56D2E1D177C200018B80C /* AddReadingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddReadingViewController.xib; sourceTree = "<group>"; };
+		17F56D311D1784510018B80C /* ReadingInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReadingInfoViewController.swift; sourceTree = "<group>"; };
+		17F56D321D1784510018B80C /* ReadingInfoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReadingInfoViewController.xib; sourceTree = "<group>"; };
+		17F56D6F1D1880270018B80C /* MyReadingsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyReadingsTableViewCell.swift; sourceTree = "<group>"; };
+		17F56D701D1880270018B80C /* MyReadingsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyReadingsTableViewCell.xib; sourceTree = "<group>"; };
+		17F56D731D18836A0018B80C /* Reading.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reading.swift; sourceTree = "<group>"; };
+		17F56D751D188A340018B80C /* PersistenceManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersistenceManager.swift; sourceTree = "<group>"; };
+		17F56D791D188AFE0018B80C /* ReadingsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReadingsController.swift; sourceTree = "<group>"; };
+		3D104C6BB78410132AE9D846 /* Pods-Tortoise.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tortoise.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tortoise/Pods-Tortoise.debug.xcconfig"; sourceTree = "<group>"; };
+		54D923DE73180A04F834764F /* Pods_TortoiseTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TortoiseTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		734C7CA00A0A47D25F6A3BC3 /* Pods-Tortoise.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tortoise.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tortoise/Pods-Tortoise.release.xcconfig"; sourceTree = "<group>"; };
+		9E805AF1A43DE76C94121F62 /* Pods_Tortoise.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tortoise.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		17F56CE71D1745180018B80C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9185873EBB0BA9051A37F1C6 /* Pods_Tortoise.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17F56CFB1D1745190018B80C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17F56D061D1745190018B80C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17F56CE11D1745180018B80C = {
+			isa = PBXGroup;
+			children = (
+				176902001D19EED00089D8DE /* DivisionsController.swift */,
+				176901FE1D19EEB80089D8DE /* Division.swift */,
+				17F56CED1D1745190018B80C /* AppDelegate.swift */,
+				17F01F411D1996F2001286A9 /* UserManager.swift */,
+				17F56D791D188AFE0018B80C /* ReadingsController.swift */,
+				17F56D731D18836A0018B80C /* Reading.swift */,
+				17F56D751D188A340018B80C /* PersistenceManager.swift */,
+				17F56D6F1D1880270018B80C /* MyReadingsTableViewCell.swift */,
+				17F56D701D1880270018B80C /* MyReadingsTableViewCell.xib */,
+				176902021D19F6B30089D8DE /* ReadingInfoTableViewCell.swift */,
+				176902031D19F6B30089D8DE /* ReadingInfoTableViewCell.xib */,
+				17F56D241D1766660018B80C /* Screens */,
+				17F56D231D17639E0018B80C /* Authorization */,
+				17F56CEC1D1745190018B80C /* Tortoise */,
+				17F56D011D1745190018B80C /* TortoiseTests */,
+				17F56D0C1D1745190018B80C /* TortoiseUITests */,
+				17F56CEB1D1745180018B80C /* Products */,
+				197BCEFE36B97647C6F8EC05 /* Pods */,
+				A7F35441FAA59F93364ACF46 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		17F56CEB1D1745180018B80C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				17F56CEA1D1745180018B80C /* Tortoise.app */,
+				17F56CFE1D1745190018B80C /* TortoiseTests.xctest */,
+				17F56D091D1745190018B80C /* TortoiseUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		17F56CEC1D1745190018B80C /* Tortoise */ = {
+			isa = PBXGroup;
+			children = (
+				17F56CEF1D1745190018B80C /* ViewController.swift */,
+				17F56CF41D1745190018B80C /* Assets.xcassets */,
+				17F56CF61D1745190018B80C /* LaunchScreen.storyboard */,
+				17F56CF91D1745190018B80C /* Info.plist */,
+			);
+			path = Tortoise;
+			sourceTree = "<group>";
+		};
+		17F56D011D1745190018B80C /* TortoiseTests */ = {
+			isa = PBXGroup;
+			children = (
+				17F56D021D1745190018B80C /* TortoiseTests.swift */,
+				17F56D041D1745190018B80C /* Info.plist */,
+			);
+			path = TortoiseTests;
+			sourceTree = "<group>";
+		};
+		17F56D0C1D1745190018B80C /* TortoiseUITests */ = {
+			isa = PBXGroup;
+			children = (
+				17F56D0D1D1745190018B80C /* TortoiseUITests.swift */,
+				17F56D0F1D1745190018B80C /* Info.plist */,
+			);
+			path = TortoiseUITests;
+			sourceTree = "<group>";
+		};
+		17F56D231D17639E0018B80C /* Authorization */ = {
+			isa = PBXGroup;
+			children = (
+				17F56D1B1D17454E0018B80C /* LandingViewController.swift */,
+				17F56D1C1D17454E0018B80C /* LandingViewController.xib */,
+				17F56D1F1D1751870018B80C /* RegistrationViewController.swift */,
+				17F56D201D1751870018B80C /* RegistrationViewController.xib */,
+			);
+			name = Authorization;
+			sourceTree = "<group>";
+		};
+		17F56D241D1766660018B80C /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				17F56D291D1767160018B80C /* MyReadingsViewController.swift */,
+				17F56D2A1D1767160018B80C /* MyReadingsViewController.xib */,
+				17F56D2D1D177C200018B80C /* AddReadingViewController.swift */,
+				17F56D2E1D177C200018B80C /* AddReadingViewController.xib */,
+				17F56D311D1784510018B80C /* ReadingInfoViewController.swift */,
+				17F56D321D1784510018B80C /* ReadingInfoViewController.xib */,
+			);
+			name = Screens;
+			sourceTree = "<group>";
+		};
+		197BCEFE36B97647C6F8EC05 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3D104C6BB78410132AE9D846 /* Pods-Tortoise.debug.xcconfig */,
+				734C7CA00A0A47D25F6A3BC3 /* Pods-Tortoise.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A7F35441FAA59F93364ACF46 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9E805AF1A43DE76C94121F62 /* Pods_Tortoise.framework */,
+				54D923DE73180A04F834764F /* Pods_TortoiseTests.framework */,
+				1113B2221C08DD08396BD1DA /* Pods_TortoiseUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		17F56CE91D1745180018B80C /* Tortoise */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17F56D121D1745190018B80C /* Build configuration list for PBXNativeTarget "Tortoise" */;
+			buildPhases = (
+				1036A99674DA61202798F9A6 /* [CP] Check Pods Manifest.lock */,
+				17F56CE61D1745180018B80C /* Sources */,
+				17F56CE71D1745180018B80C /* Frameworks */,
+				17F56CE81D1745180018B80C /* Resources */,
+				5CBB1DAE0587E6D0FCFC36DD /* [CP] Embed Pods Frameworks */,
+				8080A2870CF980A017499E58 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tortoise;
+			productName = Tortoise;
+			productReference = 17F56CEA1D1745180018B80C /* Tortoise.app */;
+			productType = "com.apple.product-type.application";
+		};
+		17F56CFD1D1745190018B80C /* TortoiseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17F56D151D1745190018B80C /* Build configuration list for PBXNativeTarget "TortoiseTests" */;
+			buildPhases = (
+				AE32EDF7F4D72A7755151374 /* [CP] Check Pods Manifest.lock */,
+				17F56CFA1D1745190018B80C /* Sources */,
+				17F56CFB1D1745190018B80C /* Frameworks */,
+				17F56CFC1D1745190018B80C /* Resources */,
+				DA9146360DBB88C7B90BDBD0 /* [CP] Embed Pods Frameworks */,
+				89722E107865B96D91EE0229 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				17F56D001D1745190018B80C /* PBXTargetDependency */,
+			);
+			name = TortoiseTests;
+			productName = TortoiseTests;
+			productReference = 17F56CFE1D1745190018B80C /* TortoiseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		17F56D081D1745190018B80C /* TortoiseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17F56D181D1745190018B80C /* Build configuration list for PBXNativeTarget "TortoiseUITests" */;
+			buildPhases = (
+				0FE7C06FAC5644097D24D8A4 /* [CP] Check Pods Manifest.lock */,
+				17F56D051D1745190018B80C /* Sources */,
+				17F56D061D1745190018B80C /* Frameworks */,
+				17F56D071D1745190018B80C /* Resources */,
+				AD34BC1463163484691E6D33 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				17F56D0B1D1745190018B80C /* PBXTargetDependency */,
+			);
+			name = TortoiseUITests;
+			productName = TortoiseUITests;
+			productReference = 17F56D091D1745190018B80C /* TortoiseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		17F56CE21D1745180018B80C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Jordan Donald";
+				TargetAttributes = {
+					17F56CE91D1745180018B80C = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					17F56CFD1D1745190018B80C = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 17F56CE91D1745180018B80C;
+					};
+					17F56D081D1745190018B80C = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 17F56CE91D1745180018B80C;
+					};
+				};
+			};
+			buildConfigurationList = 17F56CE51D1745180018B80C /* Build configuration list for PBXProject "Tortoise" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 17F56CE11D1745180018B80C;
+			productRefGroup = 17F56CEB1D1745180018B80C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				17F56CE91D1745180018B80C /* Tortoise */,
+				17F56CFD1D1745190018B80C /* TortoiseTests */,
+				17F56D081D1745190018B80C /* TortoiseUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		17F56CE81D1745180018B80C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17F56D1E1D17454E0018B80C /* LandingViewController.xib in Resources */,
+				17F56D341D1784510018B80C /* ReadingInfoViewController.xib in Resources */,
+				176902051D19F6B40089D8DE /* ReadingInfoTableViewCell.xib in Resources */,
+				17F56D721D1880270018B80C /* MyReadingsTableViewCell.xib in Resources */,
+				17F56D301D177C200018B80C /* AddReadingViewController.xib in Resources */,
+				17F56D221D1751870018B80C /* RegistrationViewController.xib in Resources */,
+				17F56CF81D1745190018B80C /* LaunchScreen.storyboard in Resources */,
+				17F56D2C1D1767160018B80C /* MyReadingsViewController.xib in Resources */,
+				17F56CF51D1745190018B80C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17F56CFC1D1745190018B80C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17F56D071D1745190018B80C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0FE7C06FAC5644097D24D8A4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		1036A99674DA61202798F9A6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5CBB1DAE0587E6D0FCFC36DD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tortoise/Pods-Tortoise-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8080A2870CF980A017499E58 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tortoise/Pods-Tortoise-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		89722E107865B96D91EE0229 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TortoiseTests/Pods-TortoiseTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD34BC1463163484691E6D33 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TortoiseUITests/Pods-TortoiseUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE32EDF7F4D72A7755151374 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DA9146360DBB88C7B90BDBD0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TortoiseTests/Pods-TortoiseTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		17F56CE61D1745180018B80C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17F56D331D1784510018B80C /* ReadingInfoViewController.swift in Sources */,
+				17F56D761D188A340018B80C /* PersistenceManager.swift in Sources */,
+				17F56CF01D1745190018B80C /* ViewController.swift in Sources */,
+				17F56D741D18836A0018B80C /* Reading.swift in Sources */,
+				17F56D2F1D177C200018B80C /* AddReadingViewController.swift in Sources */,
+				17F56D1D1D17454E0018B80C /* LandingViewController.swift in Sources */,
+				176902011D19EED00089D8DE /* DivisionsController.swift in Sources */,
+				176901FF1D19EEB80089D8DE /* Division.swift in Sources */,
+				17F01F421D1996F2001286A9 /* UserManager.swift in Sources */,
+				176902041D19F6B40089D8DE /* ReadingInfoTableViewCell.swift in Sources */,
+				17F56D2B1D1767160018B80C /* MyReadingsViewController.swift in Sources */,
+				17F56D211D1751870018B80C /* RegistrationViewController.swift in Sources */,
+				17F56D711D1880270018B80C /* MyReadingsTableViewCell.swift in Sources */,
+				17F56D7A1D188AFE0018B80C /* ReadingsController.swift in Sources */,
+				17F56CEE1D1745190018B80C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17F56CFA1D1745190018B80C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17F56D031D1745190018B80C /* TortoiseTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17F56D051D1745190018B80C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17F56D0E1D1745190018B80C /* TortoiseUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		17F56D001D1745190018B80C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 17F56CE91D1745180018B80C /* Tortoise */;
+			targetProxy = 17F56CFF1D1745190018B80C /* PBXContainerItemProxy */;
+		};
+		17F56D0B1D1745190018B80C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 17F56CE91D1745180018B80C /* Tortoise */;
+			targetProxy = 17F56D0A1D1745190018B80C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		17F56CF61D1745190018B80C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17F56CF71D1745190018B80C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		17F56D101D1745190018B80C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		17F56D111D1745190018B80C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		17F56D131D1745190018B80C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D104C6BB78410132AE9D846 /* Pods-Tortoise.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Tortoise/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JD.Tortoise;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		17F56D141D1745190018B80C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 734C7CA00A0A47D25F6A3BC3 /* Pods-Tortoise.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Tortoise/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JD.Tortoise;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		17F56D161D1745190018B80C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TortoiseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JD.TortoiseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tortoise.app/Tortoise";
+			};
+			name = Debug;
+		};
+		17F56D171D1745190018B80C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TortoiseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JD.TortoiseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tortoise.app/Tortoise";
+			};
+			name = Release;
+		};
+		17F56D191D1745190018B80C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TortoiseUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JD.TortoiseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Tortoise;
+			};
+			name = Debug;
+		};
+		17F56D1A1D1745190018B80C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TortoiseUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JD.TortoiseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Tortoise;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		17F56CE51D1745180018B80C /* Build configuration list for PBXProject "Tortoise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17F56D101D1745190018B80C /* Debug */,
+				17F56D111D1745190018B80C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17F56D121D1745190018B80C /* Build configuration list for PBXNativeTarget "Tortoise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17F56D131D1745190018B80C /* Debug */,
+				17F56D141D1745190018B80C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17F56D151D1745190018B80C /* Build configuration list for PBXNativeTarget "TortoiseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17F56D161D1745190018B80C /* Debug */,
+				17F56D171D1745190018B80C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17F56D181D1745190018B80C /* Build configuration list for PBXNativeTarget "TortoiseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17F56D191D1745190018B80C /* Debug */,
+				17F56D1A1D1745190018B80C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 17F56CE21D1745180018B80C /* Project object */;
+}

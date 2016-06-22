@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Alignment constraints to the first baseline" minToolsVersion="6.0"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MyReadingsViewController" customModule="Tortoise" customModuleProvider="target">
+            <connections>
+                <outlet property="addReadingButton" destination="j4h-2Y-oy7" id="TIV-R6-n7g"/>
+                <outlet property="tableView" destination="5H1-j8-XoB" id="QBO-eK-5BC"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="9ae-NE-tdT">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="144"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                </imageView>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="5H1-j8-XoB">
+                    <rect key="frame" x="0.0" y="152" width="600" height="448"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </tableView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HdJ-jn-LeR">
+                    <rect key="frame" x="8" y="90" width="120" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="MmH-P5-BDT"/>
+                        <constraint firstAttribute="width" constant="120" id="cYg-9w-JMk"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <size key="titleShadowOffset" width="1" height="0.0"/>
+                    <state key="normal" title="Log Out">
+                        <color key="titleColor" red="0.40602518770000001" green="0.63357371790000006" blue="0.61042936540000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="logOutButtonTapped:" destination="-1" eventType="touchUpInside" id="4kg-ak-vAT"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j4h-2Y-oy7">
+                    <rect key="frame" x="467" y="90" width="120" height="40"/>
+                    <color key="backgroundColor" red="0.40602518770000001" green="0.63357371790000006" blue="0.61042936540000003" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="120" id="IjE-5k-IJt"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <size key="titleShadowOffset" width="1" height="0.0"/>
+                    <state key="normal" title="Add Reading">
+                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="addReadingButtonTapped:" destination="-1" eventType="touchUpInside" id="zTo-p0-lvV"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="HdJ-jn-LeR" firstAttribute="baseline" secondItem="j4h-2Y-oy7" secondAttribute="firstBaseline" id="61V-xa-Hoo"/>
+                <constraint firstItem="HdJ-jn-LeR" firstAttribute="top" secondItem="j4h-2Y-oy7" secondAttribute="top" id="Cvh-ye-Beo"/>
+                <constraint firstItem="HdJ-jn-LeR" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="90" id="GjH-4u-1iy"/>
+                <constraint firstItem="5H1-j8-XoB" firstAttribute="top" secondItem="HdJ-jn-LeR" secondAttribute="bottom" constant="22" id="QPE-gJ-Jj1"/>
+                <constraint firstItem="j4h-2Y-oy7" firstAttribute="trailing" secondItem="i5M-Pr-FkT" secondAttribute="trailingMargin" constant="-5" id="YTP-Tp-HO1"/>
+                <constraint firstItem="9ae-NE-tdT" firstAttribute="leading" secondItem="5H1-j8-XoB" secondAttribute="leading" id="YwR-aa-MNR"/>
+                <constraint firstItem="9ae-NE-tdT" firstAttribute="trailing" secondItem="5H1-j8-XoB" secondAttribute="trailing" id="Zzd-r0-IOF"/>
+                <constraint firstItem="9ae-NE-tdT" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="cQ7-SD-DMr"/>
+                <constraint firstAttribute="bottom" secondItem="5H1-j8-XoB" secondAttribute="bottom" id="cpb-ZR-E4F"/>
+                <constraint firstItem="HdJ-jn-LeR" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leadingMargin" id="d5X-dx-5wO"/>
+                <constraint firstItem="5H1-j8-XoB" firstAttribute="top" secondItem="9ae-NE-tdT" secondAttribute="bottom" constant="8" symbolic="YES" id="fVS-0j-dng"/>
+                <constraint firstItem="9ae-NE-tdT" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="gQk-EM-YhQ"/>
+                <constraint firstItem="j4h-2Y-oy7" firstAttribute="baseline" secondItem="HdJ-jn-LeR" secondAttribute="firstBaseline" id="hwj-wu-mTy"/>
+                <constraint firstAttribute="trailing" secondItem="9ae-NE-tdT" secondAttribute="trailing" id="t3S-LU-L2x"/>
+            </constraints>
+            <point key="canvasLocation" x="304" y="337"/>
+        </view>
+    </objects>
+</document>

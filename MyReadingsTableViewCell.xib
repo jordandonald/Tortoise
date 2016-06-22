@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Alignment constraints to the first baseline" minToolsVersion="6.0"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="MyReadingsTableViewCell" customModule="Tortoise" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="88"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="87.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HJ5-5Y-pnI">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="30"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Reading Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bhe-ea-nX0">
+                                <rect key="frame" x="4" y="3" width="312" height="25"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="18"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.40602518770000001" green="0.63357371790000006" blue="0.61042936540000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="Bhe-ea-nX0" firstAttribute="centerY" secondItem="HJ5-5Y-pnI" secondAttribute="centerY" id="D7I-zL-R9t"/>
+                            <constraint firstItem="Bhe-ea-nX0" firstAttribute="centerX" secondItem="HJ5-5Y-pnI" secondAttribute="centerX" id="GIo-xD-OdJ"/>
+                            <constraint firstItem="Bhe-ea-nX0" firstAttribute="top" secondItem="HJ5-5Y-pnI" secondAttribute="top" constant="3" id="VaA-Ao-qX0"/>
+                            <constraint firstItem="Bhe-ea-nX0" firstAttribute="leading" secondItem="HJ5-5Y-pnI" secondAttribute="leading" constant="4" id="nQi-Uo-do0"/>
+                        </constraints>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vtO-FD-Wsp">
+                        <rect key="frame" x="226" y="41" width="86" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="86" id="kmF-iV-hnY"/>
+                        </constraints>
+                        <attributedString key="attributedText">
+                            <fragment content="Due:">
+                                <attributes>
+                                    <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <font key="NSFont" size="12" name="HelveticaNeue"/>
+                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                </attributes>
+                            </fragment>
+                        </attributedString>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fg6-li-nTK">
+                        <rect key="frame" x="56" y="41" width="114" height="39"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="39" id="oTj-Nq-8rm"/>
+                        </constraints>
+                        <attributedString key="attributedText">
+                            <fragment content="X Pages Left">
+                                <attributes>
+                                    <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <font key="NSFont" size="12" name="HelveticaNeue"/>
+                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                </attributes>
+                            </fragment>
+                        </attributedString>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pages" translatesAutoresizingMaskIntoConstraints="NO" id="W4T-aZ-RuE">
+                        <rect key="frame" x="17" y="41" width="40" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="40" id="Dxr-yH-pW9"/>
+                        </constraints>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="calendar" translatesAutoresizingMaskIntoConstraints="NO" id="Umj-RN-Ijz">
+                        <rect key="frame" x="178" y="41" width="40" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="40" id="qZr-7j-ELg"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="HJ5-5Y-pnI" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="3ef-Di-bwI"/>
+                    <constraint firstItem="W4T-aZ-RuE" firstAttribute="bottom" secondItem="Umj-RN-Ijz" secondAttribute="bottom" id="5cP-Tu-gmr"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="Fg6-li-nTK" secondAttribute="bottom" constant="-0.5" id="AuH-Pr-tqa"/>
+                    <constraint firstItem="W4T-aZ-RuE" firstAttribute="top" secondItem="Fg6-li-nTK" secondAttribute="top" id="D8P-GP-mOR"/>
+                    <constraint firstItem="HJ5-5Y-pnI" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="ESu-KJ-n2B"/>
+                    <constraint firstAttribute="trailing" secondItem="HJ5-5Y-pnI" secondAttribute="trailing" id="IiK-Ip-iwR"/>
+                    <constraint firstItem="W4T-aZ-RuE" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="9" id="LMM-ie-wqa"/>
+                    <constraint firstItem="vtO-FD-Wsp" firstAttribute="leading" secondItem="Umj-RN-Ijz" secondAttribute="trailing" constant="8" symbolic="YES" id="Wz3-BB-RSI"/>
+                    <constraint firstItem="Umj-RN-Ijz" firstAttribute="bottom" secondItem="vtO-FD-Wsp" secondAttribute="bottom" id="dgC-Eo-QaU"/>
+                    <constraint firstItem="Fg6-li-nTK" firstAttribute="firstBaseline" secondItem="vtO-FD-Wsp" secondAttribute="firstBaseline" id="edu-aD-SFf"/>
+                    <constraint firstItem="W4T-aZ-RuE" firstAttribute="top" secondItem="HJ5-5Y-pnI" secondAttribute="bottom" constant="11" id="iVU-QT-lDl"/>
+                    <constraint firstItem="Umj-RN-Ijz" firstAttribute="leading" secondItem="Fg6-li-nTK" secondAttribute="trailing" constant="8" symbolic="YES" id="kFT-4q-JHx"/>
+                    <constraint firstItem="Umj-RN-Ijz" firstAttribute="top" secondItem="vtO-FD-Wsp" secondAttribute="top" id="nQU-Jl-9JK"/>
+                    <constraint firstItem="W4T-aZ-RuE" firstAttribute="centerY" secondItem="Fg6-li-nTK" secondAttribute="centerY" id="qUB-WE-kw7"/>
+                    <constraint firstItem="Fg6-li-nTK" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="48" id="tF0-k9-hVX"/>
+                    <constraint firstItem="vtO-FD-Wsp" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailingMargin" id="xqt-Yo-K9b"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="dueDate" destination="vtO-FD-Wsp" id="Epa-jX-66x"/>
+                <outlet property="pagesRemaining" destination="Fg6-li-nTK" id="Ret-62-K5j"/>
+                <outlet property="readingTitle" destination="Bhe-ea-nX0" id="XjD-un-6uc"/>
+            </connections>
+            <point key="canvasLocation" x="258" y="317"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="calendar" width="100" height="100"/>
+        <image name="pages" width="100" height="100"/>
+    </resources>
+</document>
